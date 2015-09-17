@@ -1,0 +1,18 @@
+Projeto do trabalho final da disciplina Linguagens de programação e suas aplicações.
+
+alunos:Guilherme Malacrida Alves - 9311639
+       Victor Calvello - 9005929
+
+Nome do Jogo:******************************************************************************
+
+Descrição básica:RPG medieval com alguns elementos modernos em dungeon basedo em salas com combate em turnos.
+O jogador está em uma dungeon e precisa atravessá-la passando por diversas salas que contem monstros de um banco de dados.
+será possivel escolher entre três classes de combate que podem ser trocadas a qualquer momento durante o jogo (guerreiro, arqueiro e mago).
+
+caractristicas de jogabilidade: Será possível ter mais de um jogo salvo que podem ser carregados no menu principal.
+Ao batalhar o jogador ganha experiência e pode subir de nível. Quando sobe de nível o personagem aumenta um dos seus atributos.
+Cada atributo define caracteristicas de uma classe e se um personagem é capaz de utilizar determinados itens.
+Os ataques são definidos pelos itens que o personagem segura.
+
+História à definir.
+Auxilio de interface gráfica.
