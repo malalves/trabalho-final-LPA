@@ -1,0 +1,12 @@
+estrutura de labirinto confusão louca das salas
+
+ultima sala leve de volta à primeira
+saida na sala inicial com comando secreto (go up) charada na ultima sala indica como sair
+(todo fim é um começo, todo começo é um fim. Se você busca novos caminhos olhe para o céu,pois ele não é mais o limite)
+commando secreto leva a uma sala com uma galinha e 4 opções: atacar, voltar, ignorar, gritar por socorro.
+se digitar atacar voce será atacado pela galinha e morrerá
+se digitar voltar retorna à sala inicial
+se digitar ignorar a galinha te ataca pelas costas e você morre
+se gritar por socorro a galinha abre a passagem e você é resgatado por um grupo de mercadores
+
+historia inicial *********************************************************************
