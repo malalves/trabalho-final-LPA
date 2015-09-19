@@ -1,0 +1,3 @@
+typedef struct{
+ char pos, passages[4];//passages back, left, right, ahead
+}
