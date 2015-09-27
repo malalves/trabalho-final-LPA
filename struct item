@@ -1,0 +1,5 @@
+typedef struct{
+  char categoria;
+  char bonusType;
+  int value;
+}item;
