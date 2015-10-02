@@ -1,9 +1,9 @@
 typedef struct{
 	char magicD,
-			 fisicalD,
-			 distD,
-			 atkType,
-			 atk;
+	     fisicalD,
+	     distD,
+	     atkType,
+	     atk;
 	int HP, XP;
 	item drop;
 }monstro;
