@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct{
+	char nome[25];
+ 	char categoria;
+ 	char bonusType;
+ 	int value;
+}item;
+
+int main() {
+	item it;
+	FILE*arq;
+	char test;
+
+	do{
+		printf("digite o nome do mostro:");
+		gets(it.nome);
+		printf("%s\ndigite o tipo do item (m-arma magica,f-arma corpo a corpo, d-arma a distancia,c-capacete,a-armadura,b-botas):",it.nome);
+		scanf("%c",&it.categoria);
+		printf("%c\ndigite o valor de bonusType:",it.categoria);
+		scanf("%c",&it.bonusType);
+		printf("%c\ndigite o valor de fisicalD:",it.bonusType);
+		scanf("%i",&it.value);
+		printf("%s\n",it.value);
+
+		arq=fopen("item.dat","ab");
+		fwrite(&it,sizeof(item),1,arq);
+		fclose(arq);
+
+		printf("deseja inserir outro item:(s/n)");
+		scanf("%c",&test);
+		scanf("%*c");
+	}while(test!='n');
+
+	system("pause");
+	return 0;
+}
