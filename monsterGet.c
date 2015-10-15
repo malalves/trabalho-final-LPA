@@ -21,7 +21,7 @@ int main(){
 	scanf("%i",&num);
 
 	arq=fopen("mostros.dat","rb");
-	fseek(arq,(num*sizeof(monstro)-1),0);
+	fseek(arq,(num*sizeof(monstro)),0);
 	fread(&mon,sizeof(monstro),1,arq);
 	
 	
