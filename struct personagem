@@ -1,11 +1,11 @@
 typedef struct{
 	unsigned int hp, xp;
-	char lvl,
+	unsigned char lvl,
 	     wis,
 	     str,
 	     dex,
 	     pos,
-	     nome[30];
-	item *inventario,// acessará um arquivo com os itens quando der load game
-	     equip[8];
+	     slot;
+	char nome[30];
+	item equip[6];
 }personagem;
