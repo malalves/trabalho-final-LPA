@@ -1,3 +1,3 @@
 # trabalho-final-LPA
 EESC USP
-jogo sem nome
+jogo digimunchkin.c
