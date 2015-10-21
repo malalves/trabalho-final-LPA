@@ -15,7 +15,8 @@ typedef struct{
 	     str,
 	     dex,
 	     pos,
-	     slot;
+	     slot,
+	     roos[3];
 	char nome[30];
 	item equip[6];
 }personagem;
