@@ -5,7 +5,8 @@ typedef struct{
 	     str,
 	     dex,
 	     pos,
-	     slot;
+	     slot,
+	     rooms[3];
 	char nome[30];
 	item equip[6];
 }personagem;
